@@ -3,6 +3,7 @@
 #pragma once
 
 #include "GameFramework/PlayerController.h"
+#include "ControllableCharacter.h"
 #include "TutPGPlayerController.generated.h"
 
 /**
