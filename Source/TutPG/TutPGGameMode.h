@@ -6,14 +6,18 @@
 #include "TutPGGameMode.generated.h"
 
 /**
- * 
- */
+ * Previously
 UCLASS()
 class TUTPG_API ATutPGGameMode : public AGameMode
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+};
+*/
+
+UCLASS()
+class TUTPG_API ATutPGGameMode : public AGameMode
+{
+	GENERATED_BODY()
+		ATutPGGameMode(const class FObjectInitializer& ObjectInitializer);
 };
